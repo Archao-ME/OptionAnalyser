@@ -15,6 +15,7 @@ public class Option {
     private String optionExpiry;
     // 期权类型
     private OptionType type;
+
     // Vega，指期权费（P）变化与标的汇率波动性（Volatility）变化的敏感性。
     // Vega=期权价格变化/波动率的变化
     private Integer vega;

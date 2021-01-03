@@ -16,13 +16,11 @@ public class AnalyserTest {
                 .strikePrice(44)
                 .type(OptionType.PUT)
                 .build();
-
         OptionOrder order = OptionOrder.builder()
                 .option(option)
                 .price(4.8 * 100)
                 .orderType(OrderType.Long)
                 .build();
-
         Analyser optionAnalyser = Analyser.builder()
                 .optionOrder(order)
                 .build();
