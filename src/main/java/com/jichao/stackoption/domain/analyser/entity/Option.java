@@ -8,7 +8,7 @@ import lombok.Getter;
 public class Option {
 
     // 标的
-    private String subjectMatter;
+    private SubjectMatter subjectMatter;
     // 行权价
     private Integer strikePrice;
     // 到期日
